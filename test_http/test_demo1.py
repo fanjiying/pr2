@@ -1,6 +1,6 @@
 import requests
 
-
+#加入一个备注
 class TestHttp():
     def test_http_get(self):
         r = requests.get(url='http://api.github.com/events')
